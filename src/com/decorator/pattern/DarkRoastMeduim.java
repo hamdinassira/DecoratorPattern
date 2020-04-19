@@ -1,16 +1,16 @@
 package com.decorator.pattern;
 
-public class DarkRoast extends Beverage{
+public class DarkRoastMeduim extends Beverage{
 
-	public DarkRoast() {
+	public DarkRoastMeduim() {
 		// TODO Auto-generated constructor stub
-		description="DarkRoast Small";
+		description="DarkRoast Meduim";
 	}
 
 	@Override
 	public double cost() {
 		// TODO Auto-generated method stub
-		return 2.5;
+		return 3;
 	}
 	
 	

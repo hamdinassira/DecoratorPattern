@@ -4,17 +4,10 @@ public class Citronade extends Beverage{
 
 	public Citronade() {
 		// TODO Auto-generated constructor stub
-		description="Citronade";
+		description="Citronade Small";
 	}
 
-public double costSmall() {
+public double cost() {
 	return 4;
-}
-
-public double costMeduim() {
-	return 4.5;
-}
-public double costLarge() {
-	return 5;
 }
 }

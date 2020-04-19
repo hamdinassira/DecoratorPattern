@@ -14,19 +14,10 @@ public class Mint extends CondimentDecorator{
 	}
 
 	@Override
-	public double costSmall() {
+	public double cost() {
 		// TODO Auto-generated method stub
-		return .15+beverage.costSmall();
+		return .15+beverage.cost();
 	}
-	@Override
-	public double costMeduim() {
-		// TODO Auto-generated method stub
-		return .15+beverage.costMeduim();
-	}
-	@Override
-	public double costLarge() {
-		// TODO Auto-generated method stub
-		return .15+beverage.costLarge();
-	}
+	
 
 }

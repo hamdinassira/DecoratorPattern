@@ -4,9 +4,8 @@ package com.decorator.pattern;
  */
 public abstract class Beverage {
 	String description;
-	public abstract double  costSmall();
-	public abstract double  costMeduim();
-	public abstract double  costLarge();
+	public abstract double  cost();
+
 	public String getDescription() {
 		return description;
 	}

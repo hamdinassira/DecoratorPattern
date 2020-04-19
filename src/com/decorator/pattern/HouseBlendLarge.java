@@ -1,17 +1,15 @@
 package com.decorator.pattern;
 
-public class DarkRoast extends Beverage{
+public class HouseBlendLarge extends Beverage{
 
-	public DarkRoast() {
+	public HouseBlendLarge() {
 		// TODO Auto-generated constructor stub
-		description="DarkRoast Small";
+		description="HouseBlend Large";
 	}
-
 	@Override
 	public double cost() {
 		// TODO Auto-generated method stub
-		return 2.5;
+		return 1;
 	}
-	
-	
+
 }

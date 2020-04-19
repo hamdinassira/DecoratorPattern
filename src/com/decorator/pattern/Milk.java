@@ -14,17 +14,9 @@ public class Milk extends CondimentDecorator{
 	}
 
 	@Override
-	public double costSmall() {
+	public double cost() {
 		// TODO Auto-generated method stub
-		return .20+beverage.costSmall();
-	}
-	public double costMeduim() {
-		// TODO Auto-generated method stub
-		return .20+beverage.costMeduim();
-	}
-	public double costLarge() {
-		// TODO Auto-generated method stub
-		return .20+beverage.costLarge();
+		return .20+beverage.cost();
 	}
 
 }

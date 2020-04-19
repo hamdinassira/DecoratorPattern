@@ -4,19 +4,12 @@ public class Espresso extends Beverage{
 
 	public Espresso() {
 		// TODO Auto-generated constructor stub
-		description="Espresso";
+		description="Espresso Small ";
 	}
 	@Override
-	public double costSmall() {
+	public double cost() {
 		// TODO Auto-generated method stub
-		return 1.69;
+		return 1.89;
 	}
-	public double costMeduim() {
-		// TODO Auto-generated method stub
-		return 1.99;
-	}
-	public double costLarge() {
-		// TODO Auto-generated method stub
-		return 2.19;
-	}
+
 }

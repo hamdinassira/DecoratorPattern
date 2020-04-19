@@ -14,19 +14,9 @@ public class DoubleMousse extends CondimentDecorator{
 	}
 
 	@Override
-	public double costSmall() {
+	public double cost() {
 		// TODO Auto-generated method stub
-		return 1+beverage.costSmall();
-	}
-	@Override
-	public double costMeduim() {
-		// TODO Auto-generated method stub
-		return 1+beverage.costMeduim();
-	}
-	@Override
-	public double costLarge() {
-		// TODO Auto-generated method stub
-		return 1+beverage.costLarge();
+		return 1+beverage.cost();
 	}
 	
 
